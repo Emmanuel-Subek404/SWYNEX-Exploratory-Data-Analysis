@@ -1,12 +1,12 @@
-SWYNEX Exploratory Data Analysis - Task 2
-Project Overview
+# SWYNEX Exploratory Data Analysis - Task 2
+## Project Overview
 This project was completed as Task 2 of my Data Analytics Internship with SWYNEX Technologies.
 
 The objective was to perform Exploratory Data Analysis (EDA) on the cleaned Superstore dataset prepared during Task 1.
 
 I used MySQL to calculate summary statistics, analyze trends and patterns, compare sales performance across different business dimensions, and identify potential high-value anomalies. Microsoft Excel was used to organize the SQL results, create visualizations, and summarize the key findings.
 
-Dataset
+## Dataset
 Dataset: Superstore Sales Forecasting
 
 Source: Kaggle
@@ -44,7 +44,7 @@ Investigated potential high-value anomalies.
 Organized the SQL results in Excel.
 Created charts for important trends and patterns.
 Summarized the major findings and insights.
-1. EDA Summary
+## 1. EDA Summary
 The overall analysis covered 9,800 sales records representing 4,922 unique orders and 793 customers.
 
 Key statistics:
@@ -63,7 +63,7 @@ The EDA Summary worksheet combines the main statistics and insights identified d
 
 ![EDA Summary](screenshots/01_eda_summary.png)
 
-2. Annual Sales Trend
+## 2. Annual Sales Trend
 Annual sales were analyzed from 2015 through 2018.
 
 2015: $479,856.21
@@ -76,7 +76,7 @@ Overall sales increased by approximately 50.5% between 2015 and 2018.
 
 ![Annual Sales Trend](screenshots/02_annual_sales_trend.png)
 
-3. Monthly Sales Trend
+## 3. Monthly Sales Trend
 Monthly sales were analyzed to understand short-term changes and identify particularly strong sales periods.
 
 The five highest-sales months were:
@@ -91,7 +91,7 @@ November 2018 was the strongest individual month in the dataset.
 Three of the five highest-sales months occurred during 2018, supporting the overall upward trend seen in the annual analysis.
 
 ![Monthly Sales Trend](screenshots/03_monthly_sales.png)
-4. Category Analysis
+## 4. Category Analysis
 Sales were compared across the three major product categories.
 
 Technology: $827,455.87
@@ -103,7 +103,7 @@ Technology also recorded the highest average sale at approximately $456.40.
 
 ![Category Analysis](screenshots/04_category_analysis.png)
 
-5. Sub-Category Analysis
+## 5. Sub-Category Analysis
 The analysis was extended to individual product sub-categories.
 
 The five highest-selling sub-categories were:
@@ -121,7 +121,7 @@ Fasteners recorded the lowest sub-category sales at approximately $3,001.96.
 
 ![Sub-Category Analysis](screenshots/05_subcategory_analysis.png)
 
-6. Regional Analysis
+## 6. Regional Analysis
 Sales performance was compared across the four geographical regions.
 
 West: $710,219.68
@@ -136,7 +136,7 @@ The West also had the highest order volume, while the South recorded the lowest 
 
 ![Region Analysis](screenshots/06_region_analysis.png)
 
-7. Customer Segment Analysis
+## 7. Customer Segment Analysis
 Sales were analyzed across the three customer segments.
 
 Consumer: $1,148,060.53
@@ -151,7 +151,7 @@ The Consumer segment therefore represented slightly more than half of overall sa
 
 ![Segment Analysis](screenshots/07_segment_analysis.png)
 
-8. Top States Analysis
+## 8. Top States Analysis
 State-level sales were analyzed to identify the ten states generating the highest sales.
 
 This analysis provides a more detailed geographical view beyond the four regional groups.
@@ -160,7 +160,7 @@ The complete Top 10 state results are available in the Excel workbook.
 
 ![Top States](screenshots/08_top_states.png)
 
-9. Top Products Analysis
+## 9. Top Products Analysis
 The ten products generating the highest total sales were identified using SQL.
 
 Product-level analysis helps identify individual products making particularly large contributions to overall sales.
@@ -169,7 +169,7 @@ Because product names are relatively long, the results were presented primarily 
 
 ![Top Products](screenshots/09_top_products.png)
 
-10. Anomaly Analysis
+## 10. Anomaly Analysis
 The distribution of individual sales records was examined to identify unusually high-value transactions.
 
 Sales distribution statistics:
@@ -192,44 +192,44 @@ The ten highest-value individual sales records were also examined as part of the
 
 ![Anomaly Analysis](screenshots/10_anomaly_analysis.png)
 
-Key Insights
-1. Strong Overall Sales Growth
+# Key Insights
+## 1. Strong Overall Sales Growth
 Annual sales increased from approximately $479.9K in 2015 to $722.1K in 2018, representing approximately 50.5% overall growth.
 
 After a slight decline in 2016, sales recovered strongly during 2017 and continued growing during 2018.
 
-2. Technology Was the Highest-Performing Category
+## 2. Technology Was the Highest-Performing Category
 Technology generated approximately $827.5K in sales and contributed approximately 36.6% of total sales.
 
 It also recorded the highest average sale among the three major categories.
 
-3. Phones and Chairs Led Sub-Category Sales
+## 3. Phones and Chairs Led Sub-Category Sales
 Phones generated approximately $327.8K, while Chairs generated approximately $322.8K.
 
 Together, these two sub-categories contributed approximately 28.8% of overall sales.
 
-4. West and East Led Regional Sales
+## 4. West and East Led Regional Sales
 The West generated approximately $710.2K, followed by the East at approximately $669.5K.
 
 Together, these two regions accounted for approximately 61% of total sales.
 
-5. Consumer Was the Largest Customer Segment
+## 5. Consumer Was the Largest Customer Segment
 The Consumer segment generated approximately $1.148M and represented approximately 50.8% of overall sales.
 
 Corporate represented approximately 30.4%, while Home Office represented approximately 18.8%.
 
-6. November 2018 Was the Strongest Sales Month
+## 6. November 2018 Was the Strongest Sales Month
 November 2018 generated approximately $117.9K, making it the highest-sales month during the analysis period.
 
 Three of the five highest-sales months occurred during 2018.
 
-7. High-Value Transactions Were Relatively Uncommon
+## 7. High-Value Transactions Were Relatively Uncommon
 Using Mean + 3 Standard Deviations as the threshold, 123 transactions were identified as potential high-value anomalies.
 
 These represented approximately 1.26% of all records.
 
-SQL Analysis
-The project contains three SQL scripts that separate the database setup, validation, and exploratory analysis.
+## SQL Analysis
+   The project contains three SQL scripts that separate the database setup, validation, and exploratory analysis.
 
 01_database_setup.sql
 This script was used to:
