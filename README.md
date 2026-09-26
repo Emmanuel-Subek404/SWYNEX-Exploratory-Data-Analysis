@@ -61,7 +61,7 @@ Latest Order: 30-Dec-2018
 Days Covered: 1,457
 The EDA Summary worksheet combines the main statistics and insights identified during the analysis.
 
-EDA Summary
+![EDA Summary](screenshots/01_eda_summary.png)
 
 2. Annual Sales Trend
 Annual sales were analyzed from 2015 through 2018.
@@ -74,7 +74,7 @@ Sales declined slightly in 2016 before increasing strongly during 2017 and 2018.
 
 Overall sales increased by approximately 50.5% between 2015 and 2018.
 
-Annual Sales Trend
+![Annual Sales Trend](screenshots/02_annual_sales_trend.png)
 
 3. Monthly Sales Trend
 Monthly sales were analyzed to understand short-term changes and identify particularly strong sales periods.
@@ -90,8 +90,7 @@ November 2018 was the strongest individual month in the dataset.
 
 Three of the five highest-sales months occurred during 2018, supporting the overall upward trend seen in the annual analysis.
 
-Monthly Sales
-
+![Monthly Sales Trend](screenshots/03_monthly_sales.png)
 4. Category Analysis
 Sales were compared across the three major product categories.
 
@@ -102,7 +101,7 @@ Technology generated the highest total sales and contributed approximately 36.6%
 
 Technology also recorded the highest average sale at approximately $456.40.
 
-Category Analysis
+![Category Analysis](screenshots/04_category_analysis.png)
 
 5. Sub-Category Analysis
 The analysis was extended to individual product sub-categories.
@@ -120,7 +119,7 @@ Phones and Chairs together contributed approximately 28.8% of overall sales.
 
 Fasteners recorded the lowest sub-category sales at approximately $3,001.96.
 
-Sub-Category Analysis
+![Sub-Category Analysis](screenshots/05_subcategory_analysis.png)
 
 6. Regional Analysis
 Sales performance was compared across the four geographical regions.
@@ -135,7 +134,7 @@ Together, the West and East accounted for approximately 61% of total sales.
 
 The West also had the highest order volume, while the South recorded the lowest sales and order volume.
 
-Region Analysis
+![Region Analysis](screenshots/06_region_analysis.png)
 
 7. Customer Segment Analysis
 Sales were analyzed across the three customer segments.
@@ -150,7 +149,7 @@ Corporate: 30.4%
 Home Office: 18.8%
 The Consumer segment therefore represented slightly more than half of overall sales.
 
-Segment Analysis
+![Segment Analysis](screenshots/07_segment_analysis.png)
 
 8. Top States Analysis
 State-level sales were analyzed to identify the ten states generating the highest sales.
@@ -159,7 +158,7 @@ This analysis provides a more detailed geographical view beyond the four regiona
 
 The complete Top 10 state results are available in the Excel workbook.
 
-Top States
+![Top States](screenshots/08_top_states.png)
 
 9. Top Products Analysis
 The ten products generating the highest total sales were identified using SQL.
@@ -168,7 +167,7 @@ Product-level analysis helps identify individual products making particularly la
 
 Because product names are relatively long, the results were presented primarily as a formatted Excel analysis rather than an additional chart.
 
-Top Products
+![Top Products](screenshots/09_top_products.png)
 
 10. Anomaly Analysis
 The distribution of individual sales records was examined to identify unusually high-value transactions.
@@ -191,7 +190,7 @@ These transactions are statistically unusual because their sales values are subs
 
 The ten highest-value individual sales records were also examined as part of the analysis.
 
-Anomaly Analysis
+![Anomaly Analysis](screenshots/10_anomaly_analysis.png)
 
 Key Insights
 1. Strong Overall Sales Growth
